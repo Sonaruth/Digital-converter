@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Converter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="body">
+        <div class="left">
+            <h1>DIGITAL CONVERTER <br>
+              <span>APPLICATION</span></h1>
+         </div>
+ 
+         <div class="right">
+             <h2>WEIGHT CONVERTER</h1>
+         <div class="button">
+             <button id="tons">Tons-Kilograms</button>
+             <button id="kilogram">Kilograms-Tons</button>
+             <button id="stone">Stone-Ounces</button>
+             <button id="ounces">Ounces-Stone</button>
+             </div>
+             <p id="instruction"></p>
+             <form id="form">
+                 <input type="text" id="number"> <br>
+                 <button type="button" id="converter" onclick="convertBtn()">Convert</button>
+             </form>
+             <p id="output"></p>
+             <div class="a"></div>
+         </div> 
+    </div>
+       
+
+    <script src="converter.js"></script>
+</body>
+</html>
